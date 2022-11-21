@@ -22,9 +22,8 @@ const NavButton = ({ customFunc, icon, title, color, dotColor }) => {
         <span
           style={{ background: dotColor }}
           className="absolute inline-flex rounded-full h-2 w-2 right-2 top-2"
-        >
-          {icon}
-        </span>
+        ></span>
+        {icon}
       </button>
     </TooltipComponent>
   );
@@ -79,6 +78,7 @@ const Navbar = () => {
           title="Notifications"
           customFunc={() => handleClick("notification")}
           color="blue"
+          dotColor="#03C9D7"
           icon={<RiNotification3Line />}
         />
         <TooltipComponent content="Profile" position="BottomCenter">
