@@ -5,7 +5,7 @@ import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 import { AiTwotoneBug, AiTwotoneEdit } from "react-icons/ai";
 import { GoIssueOpened } from "react-icons/go";
 import { FaHome } from "react-icons/fa";
-import { BsFillKanbanFill } from "react-icons/bs";
+import { BsFillKanbanFill, BsPersonBadgeFill } from "react-icons/bs";
 import { RiDiscussFill, RiSuitcaseFill } from "react-icons/ri";
 import { IoCalendarSharp } from "react-icons/io5";
 // import { links } from "../data/dummy";
@@ -92,6 +92,18 @@ const Sidebar = () => {
                 >
                   <RiSuitcaseFill />
                   <span className="capitalize">Projects</span>
+                </NavLink>
+              </p>
+              <p>
+                <NavLink
+                  to="/developers"
+                  onClick={handleCloseSidebar}
+                  className={({ isActive }) =>
+                    isActive ? activeLink : normalLink
+                  }
+                >
+                  <BsPersonBadgeFill />
+                  <span className="capitalize">Developers</span>
                 </NavLink>
               </p>
               <p>
