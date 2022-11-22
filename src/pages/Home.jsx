@@ -15,25 +15,25 @@ const Home = () => {
         <div className="overview px-10 flex flex-wrap gap-8">
           <div className="home-card card1 rounded-md p-5 flex-1 h-22 relative bg-red-400">
             <span className=" text-3xl font-bold">10</span>
-            <p>Active Projects</p>
-            <RiSuitcaseFill className="absolute text-5xl -rotate-12 top-6 right-6" />
+            <p className="mt-3">Active Projects</p>
+            <RiSuitcaseFill className="absolute text-3xl  md:text-4xl lg:text-5xl -rotate-12 top-3 right-6" />
           </div>
           <div className="home-card card2 rounded-md p-5 flex-1 h-22 relative bg-red-300">
             <span className=" text-3xl font-bold">25</span>
-            <p>Working Developer</p>
-            <BsPersonBadgeFill className="absolute text-5xl -rotate-12 top-6 right-6" />
+            <p className="mt-3">Working Developer</p>
+            <BsPersonBadgeFill className="absolute text-3xl  md:text-4xl lg:text-5xl -rotate-12 top-3 right-6" />
           </div>
           <div className="home-card card3 rounded-md p-5 flex-1 h-22 relative bg-red-200">
             <span className=" text-3xl font-bold">108</span>
-            <p>
+            <p className="mt-3">
               Open <abbr title="Bugs, Issues, Improvements">Tickets</abbr>
             </p>
-            <AiTwotoneBug className="absolute text-5xl -rotate-12 top-6 right-6" />
+            <AiTwotoneBug className="absolute text-3xl  md:text-4xl lg:text-5xl -rotate-12 top-3 right-6" />
           </div>
           <div className="home-card card4 rounded-md p-5 flex-1 h-22 relative bg-red-800">
             <span className=" text-3xl font-bold">35</span>
-            <p>Due in 1 Month</p>
-            <BsCalendar2DateFill className="absolute text-5xl -rotate-12 top-6 right-6" />
+            <p className="mt-3">Due in 1 Month</p>
+            <BsCalendar2DateFill className="absolute text-3xl  md:text-4xl lg:text-5xl -rotate-12 top-3 right-6" />
           </div>
         </div>
       </main>
