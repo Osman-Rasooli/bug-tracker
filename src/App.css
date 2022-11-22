@@ -45,3 +45,25 @@
 .e-input-group:not(.e-float-icon-left), .e-input-group.e-success:not(.e-float-icon-left), .e-input-group.e-warning:not(.e-float-icon-left), .e-input-group.e-error:not(.e-float-icon-left), .e-input-group.e-control-wrapper:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-success:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-warning:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left){
   border: none;
 }
+
+.home-card {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+  color: #fff;
+}
+.home-card:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
+.card1 {
+  background: radial-gradient(#1fe4f5, #3fbafe);
+}
+.card2 {
+  background: radial-gradient(#76b2fe, #b69efe);
+}
+.card3 {
+  background: radial-gradient(#60efbc, #58d5c9);
+}
+.card4{
+  background: radial-gradient(#fbc1cc, #fa99b2);
+}
