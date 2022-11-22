@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import { FiShoppingCart } from "react-icons/fi";
+import { FiSearch } from "react-icons/fi";
 import { BsChatLeft } from "react-icons/bs";
 import { RiNotification3Line } from "react-icons/ri";
 import { MdKeyboardArrowDown } from "react-icons/md";
@@ -62,10 +62,10 @@ const Navbar = () => {
       />
       <div className="flex">
         <NavButton
-          title="Cart"
-          customFunc={() => handleClick("cart")}
+          title="Search"
+          customFunc={() => handleClick("search")}
           color="blue"
-          icon={<FiShoppingCart />}
+          icon={<FiSearch />}
         />
         <NavButton
           title="Chat"

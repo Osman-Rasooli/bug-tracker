@@ -5,7 +5,7 @@ import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 import { Navbar, Footer, Sidebar, ThemeSettings } from "./components";
 import { useStateContext } from "./contexts/ContextProvider";
 import {
-  Ecommerce,
+  Home,
   Order,
   Calender,
   Employees,
@@ -62,21 +62,21 @@ const App = () => {
             <div className="fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full">
               <Navbar />
             </div>
-          </div>
 
-          {/* Main Routes */}
-          <div>
-            <Routes>
-              <Route path="/" element={<Ecommerce />} />
-              <Route path="/ecommerce" element={<Ecommerce />} />
-              <Route path="/orders" element={<Order />} />
-              <Route path="/employees" element={<Employees />} />
-              <Route path="/customers" element={<Customers />} />
-              <Route path="/kanban" element={<Kanban />} />
-              <Route path="/editor" element={<Editor />} />
-              <Route path="/calender" element={<Calender />} />
-              <Route path="/color" element={<ColorPicker />} />
-            </Routes>
+            {/* Main Routes */}
+            <div>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} />
+                <Route path="/orders" element={<Order />} />
+                <Route path="/employees" element={<Employees />} />
+                <Route path="/customers" element={<Customers />} />
+                <Route path="/kanban" element={<Kanban />} />
+                <Route path="/editor" element={<Editor />} />
+                <Route path="/calender" element={<Calender />} />
+                <Route path="/color" element={<ColorPicker />} />
+              </Routes>
+            </div>
           </div>
         </div>
       </BrowserRouter>
