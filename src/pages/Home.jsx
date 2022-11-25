@@ -10,7 +10,7 @@ import {
   Inject,
   AccumulationDataLabel,
 } from "@syncfusion/ej2-react-charts";
-import { pieChartData, pieChartPallete } from "../data/dummy";
+import { pieChartData, pieChartPalletes } from "../data/dummy";
 
 const Home = () => {
   return (
@@ -71,7 +71,7 @@ const Home = () => {
                     name: "text",
                     position: "Outside",
                   }}
-                  palettes={pieChartPallete[0]}
+                  palettes={pieChartPalletes[0]}
                 ></AccumulationSeriesDirective>
               </AccumulationSeriesCollectionDirective>
             </AccumulationChartComponent>
@@ -96,7 +96,7 @@ const Home = () => {
                     name: "text",
                     position: "Outside",
                   }}
-                  palettes={pieChartPallete[1]}
+                  palettes={pieChartPalletes[1]}
                 ></AccumulationSeriesDirective>
               </AccumulationSeriesCollectionDirective>
             </AccumulationChartComponent>
@@ -121,7 +121,7 @@ const Home = () => {
                     name: "text",
                     position: "Outside",
                   }}
-                  palettes={pieChartPallete[2]}
+                  palettes={pieChartPalletes[2]}
                 ></AccumulationSeriesDirective>
               </AccumulationSeriesCollectionDirective>
             </AccumulationChartComponent>

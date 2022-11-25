@@ -3019,7 +3019,7 @@ export const pieChartData = [
   ],
 ];
 
-export const pieChartPallete = [
+export const pieChartPalletes = [
   ["#432C7A", "#80489C", "#FF8FB1", "#FCE2DB"],
   ["#112D4E", "#3F72AF", "#DBE2EF", "#F9F7F7"],
   ["#FC5185", "#F5F5F5", "#3FC1C9", "#364F6B", "#FAE3D9"],
