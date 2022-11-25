@@ -5,4 +5,4 @@
 ### I would like to thank Syncfusion for creating community license and creating beautiful components.
 
 
-<img src="./src/assete/" />
+<img src="./src/assete/screenshot.png"  width=800/>
